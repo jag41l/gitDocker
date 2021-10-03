@@ -1,0 +1,10 @@
+FROM centos
+RUN yum  install -y java-1.8.0-openjdk.x86_64 
+RUN mkdir ajedrez
+COPY serverajedrez.jar /ajedrez
+COPY ./www /ajedrez/www
+WORKDIR /ajedrez
+
+CMD /bin/java -jar serverajedrez.jar
+
+EXPOSE 7777 80
