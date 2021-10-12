@@ -1,0 +1,11 @@
+.:53 {
+    forward . 8.8.8.8 9.9.9.9
+    log
+    errors
+}
+
+jag41l.com:53 {
+    file /ejemplo.db
+    log
+    errors
+}
