@@ -1,6 +1,6 @@
-jag41l.com.        IN  SOA maestro.jag41l.com. jag41l.jag41l.com. 1 7200 3600 36000000 3600
+iesthader.net.        IN  SOA maestro.iesthader.net. root.ieshader.net. 1 7200 3600 36000000 3600
 
-s1.jag41l.com.    IN  A   192.168.1.1
-s2.jag41l.com.    IN  A   192.168.1.2
-www.jag41l.com.   IN  CNAME   s1
+web1.iesthader.net.    IN  A   192.168.1.1
+web2.iesthader.net.    IN  A   192.168.1.2
+www.iesthader.net.     IN  CNAME   web1
 
